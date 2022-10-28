@@ -1,0 +1,13 @@
+create table casa(
+id_casa int (11) primary key auto_increment,
+casa_localizacao varchar (100) not null,
+casa_quarto int (2) not null,
+casa_banheiro int (2) not null,
+casa_suite int (2) not null,
+casa_garagem int (2) not null,
+casa_sotao int (2) not null,
+casa_porao int (2) not null,
+casa_mobilia varchar (4) not null,
+casa_sala int (2) not null,
+casa_cozinha int (2) not null
+);

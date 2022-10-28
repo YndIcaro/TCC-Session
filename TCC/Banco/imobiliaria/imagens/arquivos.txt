@@ -1,0 +1,5 @@
+create table arquivos(
+id_fotos int(11) not null auto_increment,
+path varchar (100),
+data_upload datetime current_time
+);

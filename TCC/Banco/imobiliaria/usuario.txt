@@ -1,0 +1,8 @@
+usuario (
+id_usuario int (11) primary key auto_increment,
+nome varchar (45) not null,
+sobrenome varchar (45) not null,
+telefone varchar (14),
+email varchar (45) not null,
+senha varchar (100) not null
+);

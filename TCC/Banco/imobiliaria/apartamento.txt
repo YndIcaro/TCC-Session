@@ -1,0 +1,11 @@
+create table apartamento(
+id_apartamento int (11) primary key auto_increment,
+apart_localizacao varchar (100) not null,
+apart_quarto int (2) not null,
+apart_banheiro int (2) not null,
+apart_suite int (2) not null,
+apart_sala int (2) not null,
+apart_cozinha int (2) not null,
+apart_tamanho int (2) not null,
+apart_preco double (5,2)
+); 
